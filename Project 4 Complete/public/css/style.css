@@ -1,0 +1,43 @@
+body {
+    font-family: "PT Sans", Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    color: #7E9181;
+    font-size: 300%;
+    margin: 48px 0;
+    text-align: center;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+    color: #7E9181;
+    text-decoration: none;
+}
+
+h2 a:link, h2 a:visited, h2 a:hover, h2 a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+div {
+    background-color: #DFEBD3;
+    padding: 12px;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 24px 24px 24px;
+}
+
+main.list {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+span {
+    font-size: 500%;
+}

@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Travel Blog</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Travel Blog <% if (country) { %><span><%= country %></span><% } %></h1>
+
+        <main>
+            <div>
+                <h2>France</h2>
+                <img src="/images/france.jpg" alt="">
+            </div>
+
+            <div>
+                <h2>Kyrgyzstan</h2>
+                <img src="/images/kyrgyzstan.jpg" alt="">
+            </div>
+
+            <div>
+                <h2>Korea</h2>
+                <img src="/images/korea.jpg" alt="">
+            </div>
+
+            <div>
+                <h2>Switzerland</h2>
+                <img src="/images/switzerland.jpg" alt="">
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    color: #222;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+div {
+    box-shadow: 0 0 10px 10px #ddd;
+    margin-bottom: 72px;
+    padding: 24px;
+}
+
+h1 {
+    font-size: 300%;
+    margin: 48px 0;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: #bbb 1px solid;
+    margin: 0;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 24px 24px 24px;
+}
+
+span {
+    background-color: lightseagreen;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 75%;
+    padding: 0 12px;
+}

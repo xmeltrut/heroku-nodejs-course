@@ -1,0 +1,27 @@
+body {
+    background-color: #F25260;
+    color: #fff;
+    font-family: "PT Sans", Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+div {
+    background-color: #A62832;
+    box-shadow: 0 0 10px 10px #F2CA50;
+    font-size: 500%;
+    font-weight: bold;
+    padding: 24px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 300%;
+    margin: 48px 0;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 24px 24px 24px;
+}

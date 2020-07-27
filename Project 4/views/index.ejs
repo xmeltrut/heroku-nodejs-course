@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Bike Shop</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Bike Shop</h1>
+
+        <main class="list">
+            <% bikes.forEach(function(bike){ %>
+            <div>
+            <span>🚲</span>
+            <h2><a href="/details/<%= bike.id %>"><%= bike.name %></a></h2>
+            </div>
+            <% }) %>
+        </main>
+    </body>
+</html>
